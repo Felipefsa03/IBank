@@ -14,8 +14,13 @@
             <li>Contatos</li>
             <li>Historia</li>
         </ul>
-
-
     </header>
+
+    <section>
+        <button>Quero Ser IBank</button> 
+        <button>IBank News</button>
+        <button>IBank Lovers</button>
+        <button>IBank as a service</button>
+    </section>
 </body>
 </html>
