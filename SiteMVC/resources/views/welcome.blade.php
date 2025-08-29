@@ -17,10 +17,23 @@
     </header>
 
     <section>
-        <button>Quero Ser IBank</button> 
+        <!-- Aqui vai ficar os botton sem funcionalidades da regra de negocio, apenas funcionalidades de hover e scrolldonw onclick para as section referentes -->
+        <button>Quero ser IBank</button> 
         <button>IBank News</button>
         <button>IBank Lovers</button>
         <button>IBank as a service</button>
     </section>
+
+    <section>
+        <!-- Quero ser IBank: Ainda to pensando em coisas para por como convenser para a captar, mas é mais uma parada de marketing -->
+    </section>
+
+    <section>
+        
+    </section>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
