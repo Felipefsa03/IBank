@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome');    
 });
 
 
@@ -12,7 +12,14 @@ Route::get('/user/create', [UserController::class, 'create'])/* Aqui eu precisar
     ->name('usuario.create');
 
 // eu tenho que criar uma rota post para fazer a incerção no banco de dados
-    
+
+Route::post('/user/store', [UserController::class, 'store'])
+    ->name('user.store');
+
+Route::get('/user/success', [UserController::class, 'success'])
+    ->name('user.success');
+
+
 Route::get('/user/enter', [UserController::class, 'enter']) /* Aqui eu quero o formulario que vai fazer a verificação no banco de dados, a porta da frete */
     ->name('enter');
 

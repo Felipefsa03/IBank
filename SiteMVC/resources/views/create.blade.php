@@ -6,23 +6,29 @@
     <title>Register</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="{{ route('user.store') }}"  method="post">
+        @csrf
+        <label>
+            Nome:
+            <input type="text" name="name" id="">
+        </label>
         <label>
             Email:
-            <input type="email" name="email" name="Email" id="">
+            <input type="email" name="email" id="">
         </label>
         <label>
             Senha:
-            <input type="Password" name="Senha" name="Senha" id="">
+            <input type="Password" name="senha" id="">
         </label>
         <label>
             CPF:
-            <input type="text" name="cpf" name="cpf">
+            <input type="text" name="cpf">
         </label>
         <label>
             Telefone:
-            <input type="text" name="Number" id="">
+            <input type="text" name="telefone" id="">
         </label>
+    <input type="submit" value="Registrar">
     </form>
 </body>
 </html>
